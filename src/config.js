@@ -17,7 +17,7 @@ let config = clone(defaultConfig);
  *
  * Usage browser:
  * ```
- * StellarSdk.Config.setAllowHttp(true);
+ * ArmSdk.Config.setAllowHttp(true);
  * ```
  * @static
  */
