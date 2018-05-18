@@ -8,9 +8,9 @@ It provides:
 
 ### js-arm-sdk vs js-stellar-base
 
-js-arm-sdk is a high-level library that serves as client side API for [Horizon](https://github.com/stellar/go/tree/master/services/horizon). This library makes extensive use of the lower-level [js-stellar-base](https://github.com/stellar/js-stellar-base) and exposes js-stellar-base classes via its export object.  js-stellar-base can be used as a standalone library for creating Stellar primitive constructs via XDR helpers and wrappers. js-stellar-base doesn't depend on connecting to Horizon.
+js-arm-sdk is a high-level library that serves as client side API for [Horizon]. This library makes extensive use of the lower-level [js-stellar-base](https://github.com/stellar/js-stellar-base) and exposes js-stellar-base classes via its export object.  js-stellar-base can be used as a standalone library for creating Stellar primitive constructs via XDR helpers and wrappers. js-stellar-base doesn't depend on connecting to Horizon.
 
-js-arm-sdk exposes all js-stellar-base classes so you don't have to install js-stellar-base along js-stellar-sdk.
+js-arm-sdk exposes all js-stellar-base classes so you don't have to install js-stellar-base along js-arm-sdk.
 
 ## Quick start
 
@@ -57,7 +57,7 @@ gulp test:browser
 ```
 
 ## Documentation
-Documentation for this repo lives in [Developers site](https://www.stellar.org/developers/js-stellar-sdk/learn/index.html).
+Documentation for this repo lives in [Developers site](https://armnetwork.github.io/arm-docs).
 
 npm >=2.13.0 required.
 Read more about [npm version](https://docs.npmjs.com/cli/version).
