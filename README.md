@@ -1,6 +1,6 @@
 # js-arm-sdk
 
-js-arm-sdk is a Javascript library for communicating with a [Stellar Horizon server](https://github.com/stellar/go/tree/master/services/horizon). It is used for building Stellar apps either on Node.js or in the browser.
+js-arm-sdk is a Javascript library for communicating with a [ARM Network Horizon server]. It is used for building Stellar apps either on Node.js or in the browser.
 
 It provides:
 - a networking layer API for Horizon endpoints.
@@ -29,7 +29,7 @@ npm install --save arm-sdk
 
 2. require/import it in your JavaScript:
   ```js
-  var StellarSdk = require('arm-sdk');
+  var ArmSdk = require('arm-sdk');
   ```
 
 ### To develop and test js-arm-sdk itself
