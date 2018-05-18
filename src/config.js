@@ -11,7 +11,7 @@ let config = clone(defaultConfig);
  *
  * Usage node:
  * ```
- * import {Config} from 'stellar-sdk';
+ * import {Config} from 'arm-sdk';
  * Config.setAllowHttp(true);
  * ```
  *
