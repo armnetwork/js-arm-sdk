@@ -1,6 +1,6 @@
 # js-arm-sdk
 
-js-arm-sdk is a Javascript library for communicating with a [ARM Network Horizon server]. It is used for building Stellar apps either on Node.js or in the browser.
+js-arm-sdk is a Javascript library for communicating with a ARM Network. It is used for building Stellar apps either on Node.js or in the browser.
 
 It provides:
 - a networking layer API for Horizon endpoints.
@@ -8,7 +8,7 @@ It provides:
 
 ### js-arm-sdk vs js-stellar-base
 
-js-arm-sdk is a high-level library that serves as client side API for [Horizon]. This library makes extensive use of the lower-level [js-stellar-base](https://github.com/stellar/js-stellar-base) and exposes js-stellar-base classes via its export object.  js-stellar-base can be used as a standalone library for creating Stellar primitive constructs via XDR helpers and wrappers. js-stellar-base doesn't depend on connecting to Horizon.
+js-arm-sdk is a high-level library that serves as client side API for Horizon. This library makes extensive use of the lower-level [js-stellar-base](https://github.com/stellar/js-stellar-base) and exposes js-stellar-base classes via its export object.  js-stellar-base can be used as a standalone library for creating Stellar primitive constructs via XDR helpers and wrappers. js-stellar-base doesn't depend on connecting to Horizon.
 
 js-arm-sdk exposes all js-stellar-base classes so you don't have to install js-stellar-base along js-arm-sdk.
 

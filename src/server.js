@@ -141,7 +141,7 @@ export class Server {
     }
 
     /**
-     * The Stellar Network allows payments to be made between assets through path payments. A path payment specifies a
+     * The Arm Network allows payments to be made between assets through path payments. A path payment specifies a
      * series of assets to route a payment through, from source asset (the asset debited from the payer) to destination
      * asset (the asset credited to the payee).
      *

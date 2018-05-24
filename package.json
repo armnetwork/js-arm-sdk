@@ -1,6 +1,6 @@
 {
   "name": "arm-sdk",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "arm-sdk is a library for working with the ARM Network Horizon server.",
   "main": "lib/index.js",
   "scripts": {
